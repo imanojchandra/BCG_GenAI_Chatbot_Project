@@ -55,6 +55,9 @@ def financial_chatbot(company, year, query):
 
 
 def main():
+    print("Hi, Welcome to the Global Finance Corp. (GFC) AI Chatbot!")
+    print("I can provide information about financial data of our client companeies.")
+    
     while True:
         company = input("Which company's data do you want to know about? (Microsoft/Apple/Tesla): ").strip()
         
